@@ -1,0 +1,19 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# 1. Virtuell miljö och API-nyckel (VIKTIGAST)
+env/
+.env
+
+# 2. Python/VSCode/Jupyter cache-mappar
+__pycache__/
+.vscode/
+.ipynb_checkpoints/
+
+# 3. Data- och mediafiler som inte ska vara på GitHub
+history.csv
+History.txt
+complete_details.txt
+anim.mp4
+
+# 4. Jupyter Notebook (du vill bara ladda upp .py-filen)
+*.ipynb
